@@ -1,2 +1,1 @@
-# Tourist-Guide
-Mini Project
+# Tourist-Guide [Mini Project]
