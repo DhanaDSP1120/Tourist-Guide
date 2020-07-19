@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/gridviewdata"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:background="#DFDBDB"
+        >
+
+        <TextView
+            android:id="@+id/placename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:layout_below="@id/place"
+            android:text="chennai"
+            android:textSize="20dp"
+            android:textColor="#000000 "
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/place"
+            android:layout_width="193dp"
+            android:layout_height="163dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="30dp"
+            android:scaleType="centerCrop"
+
+            />
+
+        <TextView
+            android:id="@+id/distanceshow1"
+            android:layout_width="87dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="25dp"
+            android:layout_centerHorizontal="true"
+
+            android:background="@drawable/graybackground"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:text="153.4 Km"/>
+    </RelativeLayout>
+</RelativeLayout>

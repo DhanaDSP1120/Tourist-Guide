@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "514430763593",
+    "firebase_url": "https://touristguide-63913.firebaseio.com",
+    "project_id": "touristguide-63913",
+    "storage_bucket": "touristguide-63913.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514430763593:android:b1a5acbe9483d88e5cb598",
+        "android_client_info": {
+          "package_name": "com.dhanadsp1120.touristguidedataadding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514430763593-a4bulpufk2rfm7680tosci1l4f7i8kkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwqzcj6LwwG7jJCvIEGonDFF7LkdTx7AA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514430763593-a4bulpufk2rfm7680tosci1l4f7i8kkh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514430763593:android:87e30517866c7a335cb598",
+        "android_client_info": {
+          "package_name": "com.dhanadsp1120.touristguidefortamilnadu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514430763593-a4bulpufk2rfm7680tosci1l4f7i8kkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwqzcj6LwwG7jJCvIEGonDFF7LkdTx7AA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514430763593-a4bulpufk2rfm7680tosci1l4f7i8kkh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

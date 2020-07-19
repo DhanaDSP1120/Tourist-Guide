@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about"
+    android:background="#D3D3E4">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/abouticon"
+        android:layout_width="189dp"
+        android:layout_height="144dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginRight="109dp"
+        android:src="@mipmap/ic_launcher" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/abouticon"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:gravity="left"
+        android:id="@+id/abttext"
+        android:text="Are you planning for a trip inside Tamilnadu? Here is the free guidance for you . This App Consists of more than 100+ tour spots in Tamilnadu .This app contains the complete list of top tourist places, historical places and many other travel destinations of Tamilnadu.You can also get the history / details of all tourist spot, location and route map for each places that are listed in this app.This Apk was Developed by Dhanasekar,Ajithkumar,Jawahar from Sona College of Technology "/>
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/abttext"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="119dp"
+        android:background="@drawable/button"
+        android:onClick="shareapk"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginRight="118dp"
+        android:gravity="center"
+        android:text="share"
+
+        android:id="@+id/b"
+        android:textSize="15sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/b"
+        android:layout_marginTop="10dp"
+        />
+</RelativeLayout>
+
+</ScrollView>
